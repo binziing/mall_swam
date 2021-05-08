@@ -5,7 +5,7 @@ spring:
     password: _MALL(2UFxgq.
   elasticsearch:
     rest:
-      uris: http://localhost:9200
+      uris: http://47.103.10.87:9200
 logging:
   level:
     root: info
