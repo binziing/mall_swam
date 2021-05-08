@@ -1,6 +1,5 @@
 spring:
-  cloud:
-    nacos:
-      discovery:
-        server-addr: http://nacos-registry:8848
-
+  profiles:
+    active: dev
+  application:
+    name: mall-monitor
